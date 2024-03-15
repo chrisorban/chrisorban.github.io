@@ -31,7 +31,7 @@
             display: block;
             background-color: black;
             color: white;
-            text-align: left;
+            text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
@@ -44,7 +44,7 @@
         section {
             max-width: 60vw;
             margin: 0px auto;
-            margin-top: -300px;
+            margin-top: -55vh;
             font-size: 25px;
             padding: 0px;
             background-color: #ffffff;
@@ -65,7 +65,34 @@
             color: white;
             text-align: center;
         }
-    
+            /* Styles for mobile */
+            @media (max-width: 768px) {
+            nav {
+            width: 17vw; /* Adjust the width as needed */
+        }
+
+
+            nav a {
+            display: block;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2vw 3vw;
+            text-decoration: none;
+            font-size: 2vw;
+           }
+           section {
+            max-width: 60vw;
+            margin: 0px auto;
+            margin-top: -60vw;
+            font-size: 25px;
+            padding: 0px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            display: block;
+        }
+
+    }
     </style>
 </head>
 <body>
