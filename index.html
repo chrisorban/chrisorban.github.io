@@ -70,8 +70,25 @@
             color: white;
             text-align: center;
         }
+
+
+.full-width-header {
+  margin-top: -20vw;
+  width: 100%;
+  text-align: center; /* Center the text in the header */
+  background-color: white; 
+  color: #000000; 
+  padding: 0; /* Optional: add some padding for spacing */
+}
+
+.full-width-header h1 {
+  margin: 0;
+  font-size: 2vw; /* Adjust as needed */
+  color: black;
+}
+	
         /* Styles for mobile */
-        @media (max-width: 768px) {
+   @media (max-width: 768px) {
         nav {
             width: 17vw; /* Adjust the width as needed */
         }
@@ -88,15 +105,18 @@
            section {
             max-width: 60vw;
             margin: 0px auto;
-            margin-top: 0vw;
+            margin-top: -30vw;
             font-size: 2vw;
             padding: 0px;
             background-color: #ffffff;
             border-radius: 8px;
             display: block;
         }
-
-	    }
+.full-width-header {
+	margin-top: -40vw;
+	}
+	
+}
       .dummy-main-container {
         display: flex;
         flex-direction: row;
@@ -162,20 +182,7 @@
     }
 }
 	
-   .full-width-header {
-  margin-top: -20vw;
-  width: 100%;
-  text-align: center; /* Center the text in the header */
-  background-color: white; 
-  color: #000000; 
-  padding: 0; /* Optional: add some padding for spacing */
-}
 
-.full-width-header h1 {
-  margin: 0;
-  font-size: 2vw; /* Adjust as needed */
-  color: black;
-}
 
     </style>
 </head>
